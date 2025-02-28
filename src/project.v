@@ -17,7 +17,7 @@ module tt_um_example (
 	input wire ena;
 	input wire clk;
 	input wire rst_n;
-	assign uo_out[2:3] = 2'b00;
+	assign uo_out[2+:2] = 2'b00;
 	assign uio_out = 0;
 	assign uio_oe = 0;
 	wire _unused = &{ena};
@@ -43,7 +43,7 @@ module tt_um_example (
 		if (packet[0]) begin
 			sr_r <= sr_c;
 			if (packet[3])
-				cnt <= cnt + packet[3];
+				cnt <= cnt + sr_c;
 		end
 	assign uo_out[4+:4] = cnt[uio_in[7-:3] * 4+:4];
 endmodule
