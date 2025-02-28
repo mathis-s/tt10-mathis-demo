@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Test"      # Project title
+  title:        "Mathis Demo"      # Project title
   author:       "Mathis"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "My project is a test."      # One line description of what your project does
@@ -11,7 +11,7 @@ project:
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_mathis_demo"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
@@ -22,34 +22,34 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "vkoxaw"
-  ui[1]: "vkoxaw"
-  ui[2]: "vkoxaw"
-  ui[3]: "vkoxaw"
-  ui[4]: "vkoxaw"
-  ui[5]: "vkoxaw"
-  ui[6]: "vkoxaw"
-  ui[7]: "vkoxaw"
+  ui[0]: "unused"
+  ui[1]: "unused"
+  ui[2]: "unused"
+  ui[3]: "unused"
+  ui[4]: "unused"
+  ui[5]: "unused"
+  ui[6]: "unused"
+  ui[7]: "unused"
 
   # Outputs
-  uo[0]: "fkoda"
-  uo[1]: "fkoda"
-  uo[2]: "fkoda"
-  uo[3]: "fkoda"
-  uo[4]: "fkoda"
-  uo[5]: "fkoda"
-  uo[6]: "fkoda"
-  uo[7]: "fkoda"
+  uo[0]: "unused"
+  uo[1]: "unused"
+  uo[2]: "unused"
+  uo[3]: "unused"
+  uo[4]: "unused"
+  uo[5]: "unused"
+  uo[6]: "unused"
+  uo[7]: "unused"
 
   # Bidirectional pins
-  uio[0]: "adb"
-  uio[1]: "adb"
-  uio[2]: "adb"
-  uio[3]: "adb"
-  uio[4]: "adb"
-  uio[5]: "adb"
-  uio[6]: "adb"
-  uio[7]: "adb"
+  uio[0]: "unused"
+  uio[1]: "unused"
+  uio[2]: "unused"
+  uio[3]: "unused"
+  uio[4]: "unused"
+  uio[5]: "unused"
+  uio[6]: "unused"
+  uio[7]: "unused"
 
 # Do not change!
 yaml_version: 6

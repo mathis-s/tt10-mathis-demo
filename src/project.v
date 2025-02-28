@@ -1,5 +1,5 @@
 `default_nettype none
-module tt_um_example (
+module tt_um_mathis_demo (
 	ui_in,
 	uo_out,
 	uio_in,
