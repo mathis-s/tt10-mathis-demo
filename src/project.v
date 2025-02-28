@@ -17,10 +17,10 @@ module tt_um_example (
 	input wire ena;
 	input wire clk;
 	input wire rst_n;
-	assign uo_out = ui_in * uio_in;
+	assign uo_out[2:3] = 2'b00;
 	assign uio_out = 0;
 	assign uio_oe = 0;
-	wire _unused = &{ena, clk, rst_n, 1'b0};
+	wire _unused = &{ena};
 	wire [3:0] packet;
 	SPI_EEPROM eeprom_ctrl(
 		.clk(clk),
